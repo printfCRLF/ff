@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c27e4c3f-3366-468d-9783-d5de91d68a5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>numpy\4_indexing_slicing_iterating.py</StartupFile>
+    <StartupFile>numpy\5_shape_manipulation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="numpy\4_indexing_slicing_iterating.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\5_shape_manipulation.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="p.py" />
