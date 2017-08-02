@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c27e4c3f-3366-468d-9783-d5de91d68a5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>numpy\2 array_creation.py</StartupFile>
+    <StartupFile>numpy\4_indexing_slicing_iterating.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +23,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="numpy\1 basics.py" />
-    <Compile Include="numpy\2 array_creation.py">
+    <Compile Include="numpy\1_basics.py" />
+    <Compile Include="numpy\2_array_creation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\3_printing_arrays.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\4_indexing_slicing_iterating.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="p.py" />
