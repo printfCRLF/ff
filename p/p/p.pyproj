@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c27e4c3f-3366-468d-9783-d5de91d68a5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>numpy\1 basics.py</StartupFile>
+    <StartupFile>numpy\2 array_creation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="numpy\1 basics.py" />
+    <Compile Include="numpy\2 array_creation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="p.py" />
     <Compile Include="pandas\10minutes\ObjectCreation.py" />
     <Compile Include="pandas\10minutes\Operations2.py" />
